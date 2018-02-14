@@ -1,0 +1,48 @@
+{
+  "name": "russell-content",
+  "version": "0.0.0-development",
+  "description": "It extends a provided json state with a content key filled with yaml-front-matter parsed content from a glob matching markdown with front matter files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && nsp check && istanbul cover tape test.js && codecov",
+    "commit": "git-cz",
+    "setup": "npm i && semantic-release-cli setup",
+    "lint-prose": "write-good *.md",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/santiagogil/russell-content.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santiagogil/russell-content/issues"
+  },
+  "homepage": "https://github.com/santiagogil/russell-content#readme",
+  "devDependencies": {
+    "tape": "*",
+    "standard": "*",
+    "nsp": "*",
+    "commitizen": "*",
+    "cz-conventional-changelog": "*",
+    "semantic-release-cli": "*",
+    "codecov": "*",
+    "istanbul": "*",
+    "write-good": "*",
+    "travis-deploy-once": "^4.3.4",
+    "semantic-release": "^12.4.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "glob": "^7.1.2",
+    "xtend": "^4.0.1",
+    "yaml-front-matter": "^3.4.0"
+  }
+}
