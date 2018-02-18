@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var front = require('yaml-front-matter')
 var fs = require('fs')
 var glob = require('glob')
