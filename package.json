@@ -3,6 +3,7 @@
   "version": "0.0.0-development",
   "description": "It extends a provided json state with a content key filled with yaml-front-matter parsed content from a glob matching markdown with front matter files.",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "test": "standard && nsp check && istanbul cover tape test.js && codecov",
     "commit": "git-cz",
