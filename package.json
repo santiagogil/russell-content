@@ -44,6 +44,6 @@
   "dependencies": {
     "glob": "^7.1.2",
     "xtend": "^4.0.1",
-    "yaml-front-matter": "^4.0.0"
+    "yaml-front-matter": "^4.1.0"
   }
 }
