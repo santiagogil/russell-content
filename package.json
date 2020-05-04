@@ -28,7 +28,7 @@
     "standard": "*",
     "nsp": "*",
     "commitizen": "*",
-    "cz-conventional-changelog": "*",
+    "cz-conventional-changelog": ">=3.1.1",
     "semantic-release-cli": "*",
     "codecov": "*",
     "istanbul": "*",
